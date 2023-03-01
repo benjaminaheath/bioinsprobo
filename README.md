@@ -1,4 +1,4 @@
-# bioinsprobo - github repository
+# bioinsprobo repository
 ## Install and Setup
 The Raspberry Pi Pico platform has several prerequisites that require install and setup which is especially convoluted when not on Linux/Raspberry Pi OS.
 
