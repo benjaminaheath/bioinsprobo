@@ -11,11 +11,16 @@ Shawn Hymel has the most comprehensive guide to installing, setting up and verif
 [Intro to Raspberry Pi Pico and RP2040 - C/C++ Part 1: VS Code and Blink | Digi-Key Electronics](https://www.youtube.com/watch?v=B5rQSoOmR5w)
 ### OpenOCD and Cortex-Debug
 [Intro to Raspberry Pi Pico and RP2040 - C/C++ Part 2: Debug with Picoprobe | Digi-Key Electronics](https://www.youtube.com/watch?v=jnC5LrTx470)
-### Cloning the Repository
+## Cloning the Repository
+This can be done either through Github Desktop, or Git Bash. For both, ensure you are logged in with a valid access token to enable write access.
+
+From git bash command line, navigate to the C:\VSARM\lib\ directory. Execute the command :
+```git clone https://github.com/benjaminaheath/bioinsprobo.git```
+This will clone the directory into the VSARM libraries folder.
 ## Directory Structure
 ### src
 Project source code and headers written for project applications.
 ### lib
 Contains externally linked libraries used in applications.
 ### apps
-Directory for executables for the project.
+Directory for executables.
